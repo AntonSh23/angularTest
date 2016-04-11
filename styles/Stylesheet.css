@@ -1,0 +1,40 @@
+#myActionBox{
+    display: flex;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    background: gainsboro;
+}
+
+body{
+    background: #f0ebf4;
+}
+
+header{
+    background: #e8e5f6;
+}
+
+header, h2, h3{
+    text-align: center;
+}
+
+input{
+    display: block;
+    margin: 3px auto 3px auto;
+}
+
+form{
+    text-align: center;
+}
+
+table{
+    border-spacing: 0;
+}
+
+td{
+    padding: 0;
+}
+
+.avoid-clicks {
+    pointer-events: none;
+}

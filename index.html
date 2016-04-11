@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WMS</title>
+    <script src="vendor/jquery-2.2.0.min.js"></script>
+    <script src="script/common.js"></script>
+    <link rel="stylesheet" href="styles/Stylesheet.css">
+<body>
+    <header>
+        <h1>Тестовое задание</h1>
+    </header>
+
+    <h3>
+        Выбор параметров коробки
+    </h3>
+    <form id="myform">
+        <label for="width">Введите сторону</label><input type="number" name="width" id="width" value="200">
+        <label for="rows">Количество рядов</label><input type="number" name="rows" id="rows" value="20">
+        <label for="cols">Количество столбцов</label><input type="number" name="cols" id="cols" value="20">
+        <label for="speed">Скорость</label><input type="number" name="speed" id="speed" value="20">
+        <input type="submit" name="submit" value="Применить">
+    </form>
+    <h2>
+        Кликните по коробке
+    </h2>
+    <div id="myActionBox">
+    </div>
+</body>
+</html>
